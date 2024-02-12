@@ -1,0 +1,14 @@
+server actions : functions that run on the server, but can be called like normal functions 
+use the use server flag 
+under the nextjs code implementation, whatever we write inside a function with the use server flag turn into an api with post method.
+
+Why? 
+    less code 
+    we focus on logic rather than code.
+    we dont have to create the api ourself, nextjs will handle it automatically for us.
+    ( could be a problem : we dont have any control over it. )
+    less client side code -> faster load and respond better. better seo, web vitals, crawl budget, crawl ranking.
+    fater code ship
+
+server actions allow you to do mutations
+
