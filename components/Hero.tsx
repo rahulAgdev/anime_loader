@@ -15,6 +15,7 @@ function Hero() {
           Explore The <span className="red-gradient">Diverse Realms</span> of
           Anime Magic
         </h1>
+        <p className="text-gray-300 text-sm">Visit : <a href="https://www.github.com/rahulAgdev" className="text-gray-500 text-md">Github</a> to view more such projects</p>
       </div>
       <div className="lg:flex-1 relative w-full h-[50vh] justify-center">
         <Image src="/anime.png" alt="anime" fill className="object-contain" />
